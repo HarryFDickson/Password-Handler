@@ -25,5 +25,3 @@ print(f"Your new password is: {password}")
 
 with open("Details.txt","a+",encoding='utf-8') as file:
     file.write(f"URL: {url}\nUsername: {email_username}\nPassword: {password}\n\n")
-
-#hello
